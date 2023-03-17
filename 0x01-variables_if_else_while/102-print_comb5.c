@@ -20,10 +20,8 @@ int main(void)
 			putchar((i % 10) + '0');
 			if (i == 98 && j == 99)
 			continue;
-			{
-				putchar('.');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
